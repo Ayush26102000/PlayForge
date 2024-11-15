@@ -1,0 +1,6 @@
+@FOrgePLayWebApi_HostAddress = http://localhost:5240
+
+GET {{FOrgePLayWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
