@@ -1,0 +1,37 @@
+/* dashboard-overview.component.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .stat-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .stat-item {
+    background: #2e3b4e;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .chart-container {
+    background: #2e3b4e;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
